@@ -12,8 +12,9 @@ output "key_name" {
   value = "${aws_instance.aws_instance_LA.key_name}"
 }
 
-output "dns_name" {
-  value = "${aws_reference_network.aws_network_LA.dns_name}"
+output "aws_instance.aws_instance_LA / availability_zone" {
+  value = "${aws_instance.aws_instance_LA.availability_zone}"
 }
+
 
 
