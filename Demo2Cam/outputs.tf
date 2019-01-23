@@ -12,5 +12,9 @@ output "key_name" {
   value = "${aws_instance.aws_instance_LA.key_name}"
 }
 
+output "Pet name" {
+  value = "${random_pet.citi-pet.name}"
+}
+
 
 

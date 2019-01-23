@@ -130,6 +130,16 @@
       "group_name": "",
       "secured": false,
       "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "Pet name",
+      "label": "Pet name",
+      "description": "",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
       "shortname": ""
     }
   ]
