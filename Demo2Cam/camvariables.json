@@ -67,8 +67,8 @@
       "hidden": false,
       "immutable": false,
       "immutable_after_create": false,
-       "options": [
-      {
+      "options": [
+        {
           "value": "us-east-1a",
           "label": "us-east-1a",
           "default": true
@@ -98,13 +98,13 @@
       "immutable_after_create": false
     },
     {
-      "name": "subnet_LA_subnet_id",
-      "label": "Subnet La Subnet Id",
+      "name": "vpc_id",
+      "label": "Vpc Id",
       "description": "Generated",
       "type": "string",
       "default": "",
       "validation": "",
-      "group_name": "aws_instance_networks",
+      "group_name": "",
       "required": true,
       "secured": false,
       "hidden": false,

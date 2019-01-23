@@ -14,9 +14,9 @@ provider "aws" {
   version = "~> 1.8"
 }
 
-
-data "aws_subnet" "subnet_LA" {
-  id = "${var.subnet_LA_subnet_id}"
+data "aws_subnet" "subnet" {
+  availability_zone = "${var.availability_zone}"
+  vpc_id = "${var.vpc_id}"
 }
 
 resource "random_pet" "citi-pet" {  
@@ -27,7 +27,7 @@ resource "aws_instance" "aws_instance_LA" {
   key_name = "${aws_key_pair.auth.id}"
   instance_type = "${var.aws_instance_LA_aws_instance_type}"
   availability_zone = "${var.availability_zone}"
-  subnet_id  = "${data.aws_subnet.subnet_LA.id}"
+  subnet_id = "${data.aws_subnet.subnet.id}"
   tags {
     Name = "${var.aws_instance_LA_name}"
   }

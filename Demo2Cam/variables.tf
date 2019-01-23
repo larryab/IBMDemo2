@@ -25,7 +25,7 @@ variable "aws_instance_LA_name" {
   description = "Generated"
 }
 
-variable "subnet_LA_subnet_id" {
+variable "vpc_id" {
   type = "string"
   description = "Generated"
 }
