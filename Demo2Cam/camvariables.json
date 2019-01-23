@@ -134,8 +134,8 @@
       "type": "string"
     },
     {
-      "name": "Pet name",
-      "label": "Pet name",
+      "name": "dns_name",
+      "label": "dns_name",
       "description": "",
       "group_name": "",
       "secured": false,
