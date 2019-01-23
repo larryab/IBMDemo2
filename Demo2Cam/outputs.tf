@@ -9,6 +9,6 @@ output "public_ip" {
 }
 
 output " name" {
-  value = "${random_pet.citi-pet.name}"
+  value = "${random_pet.citi-pet.key_name}"
 }
 
