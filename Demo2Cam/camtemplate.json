@@ -1,0 +1,14 @@
+{
+   "name": "Demo2Cam",
+   "description": "Description for Demo2Cam.",
+   "type": "userCreated",
+   "manifest": {
+     "template_type": "Terraform",
+     "template_format": "HCL",
+     "template_provider": "Other"
+   },
+   "metadata": {
+     "displayName": "Demo2Cam",
+     "bullets": []
+   }
+ }
