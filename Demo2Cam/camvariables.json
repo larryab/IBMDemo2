@@ -124,14 +124,13 @@
       "type": "string"
     },
     {
-      "name": " name",
-      "label": " name",
+      "name": "key_name",
+      "label": "key_name",
       "description": "",
       "group_name": "",
       "secured": false,
       "hidden": false,
-      "shortname": "",
-      "type": "string"
+      "shortname": ""
     }
   ]
 }
