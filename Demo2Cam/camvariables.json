@@ -52,8 +52,22 @@
       "secured": false,
       "hidden": false,
       "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "availability_zone",
+      "label": "Availability Zone",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
       "immutable_after_create": false,
-      "options": [
+       "options": [
       {
           "value": "us-east-1a",
           "label": "us-east-1a",
@@ -68,20 +82,6 @@
           "label": "us-east-1d"
         }
       ]
-    },
-    {
-      "name": "availability_zone",
-      "label": "Availability Zone",
-      "description": "Generated",
-      "type": "string",
-      "default": "",
-      "validation": "",
-      "group_name": "instances",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
     },
     {
       "name": "aws_instance_LA_name",
