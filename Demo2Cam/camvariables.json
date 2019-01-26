@@ -140,6 +140,16 @@
       "group_name": "",
       "secured": false,
       "hidden": false,
+      "shortname": "",
+      "type": "string"
+    },
+    {
+      "name": "Instance_name",
+      "label": "Instance_name",
+      "description": "",
+      "group_name": "",
+      "secured": false,
+      "hidden": false,
       "shortname": ""
     }
   ]
