@@ -12,7 +12,7 @@ output "key_name" {
   value = "${aws_instance.aws_instance_LA.key_name}"
 }
 
-output "aws_instance.aws_instance_LA / availability_zone" {
+output "availability_zone" {
   value = "${aws_instance.aws_instance_LA.availability_zone}"
 }
 

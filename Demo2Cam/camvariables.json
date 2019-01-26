@@ -134,8 +134,8 @@
       "type": "string"
     },
     {
-      "name": "aws_instance.aws_instance_LA / availability_zone",
-      "label": "aws_instance.aws_instance_LA / availability_zone",
+      "name": "availability_zone",
+      "label": "availability_zone",
       "description": "",
       "group_name": "",
       "secured": false,
