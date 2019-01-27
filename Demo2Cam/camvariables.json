@@ -4,6 +4,10 @@
   "output_namespace": "",
   "input_groups": [
     {
+      "name": "Instances-aws_instance.aws_instance_LA",
+      "label": "Instances - aws_instance.aws_instance_LA"
+    },
+    {
       "name": "Other",
       "label": "Other"
     },
