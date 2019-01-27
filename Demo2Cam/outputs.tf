@@ -16,7 +16,3 @@ output "availability_zone" {
   value = "${aws_instance.aws_instance_LA.availability_zone}"
 }
 
-output "Instance_name" {
-  value = "${aws_instance.aws_instance_LA.name}"
-}
-

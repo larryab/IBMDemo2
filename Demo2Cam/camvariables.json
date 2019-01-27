@@ -3,11 +3,7 @@
   "input_namespaces": [ ],
   "output_namespace": "",
   "input_groups": [
-    {
-      "name": "Instances-aws_instance.aws_instance_dg",
-      "label": "Instances - aws_instance.aws_instance_dg"
-    },
-    {
+       {
       "name": "Other",
       "label": "Other"
     },
@@ -142,15 +138,6 @@
       "hidden": false,
       "shortname": "",
       "type": "string"
-    },
-    {
-      "name": "Instance_name",
-      "label": "Instance_name",
-      "description": "",
-      "group_name": "",
-      "secured": false,
-      "hidden": false,
-      "shortname": ""
     }
   ]
 }

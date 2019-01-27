@@ -28,7 +28,6 @@ resource "aws_instance" "aws_instance_LA" {
   instance_type = "${var.aws_instance_LA_aws_instance_type}"
   availability_zone = "${var.availability_zone}"
   subnet_id = "${data.aws_subnet.subnet.id}"
-  name = "${random_pet.citi-pet.id}"
   tags {
     Name = "${var.aws_instance_LA_name}"
   }
