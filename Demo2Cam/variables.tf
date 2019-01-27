@@ -20,11 +20,6 @@ variable "availability_zone" {
   description = "Generated"
 }
 
-variable "aws_instance_LA_name" {
-  type = "string"
-  description = "Generated"
-}
-
 variable "vpc_id" {
   type = "string"
   description = "Generated"

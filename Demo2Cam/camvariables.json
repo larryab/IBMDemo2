@@ -1,9 +1,10 @@
+#Cam JSON File
 {
   "input_datatypes": [ ],
   "input_namespaces": [ ],
   "output_namespace": "",
   "input_groups": [
-       {
+    {
       "name": "Other",
       "label": "Other"
     },
@@ -78,20 +79,6 @@
           "label": "us-east-1d"
         }
       ]
-    },
-    {
-      "name": "aws_instance_LA_name",
-      "label": "Aws Instance La Name",
-      "description": "Generated",
-      "type": "string",
-      "default": "",
-      "validation": "",
-      "group_name": "instances",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
     },
     {
       "name": "vpc_id",
