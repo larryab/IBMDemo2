@@ -25,3 +25,8 @@ variable "vpc_id" {
   description = "Generated"
 }
 
+variable "aws_instance_LA_name" {
+  type = "string"
+  description = "Generated"
+}
+
